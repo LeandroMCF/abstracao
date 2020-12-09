@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XfLZdkn6rjSK9EWM1ArX/G6oAZ2dicSlHy/5jAVyLGfbOu8hHVyWd7gidormy505sH7kua/xdH0AF981xIAPwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\abstracao\\abstracao.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leand\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
