@@ -6,6 +6,12 @@ namespace abstracao.Classes
     {
         private string codigoDeBarras;
 
+        public string CodigoDeBarras{
+            get{return codigoDeBarras;}
+        }
+
+        public string valorBoleto;
+
         public void Registar(){
             Console.WriteLine($"Registrado");
         }

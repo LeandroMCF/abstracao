@@ -6,11 +6,15 @@ namespace abstracao.Classes
     {
         private DateTime data;
         protected float valor;
+        public float Valor{
+            get{return valor;}
+            set{valor = value;}
+        }
 
         //Métodos
 
-        public string Cancelar(){
-            return "";
+        public void Cancelar(){
+            
         }  
 
         //obrigatorio
