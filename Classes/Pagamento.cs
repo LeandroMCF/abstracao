@@ -5,10 +5,13 @@ namespace abstracao.Classes
     public abstract class Pagamento
     {
         private DateTime data;
+        public DateTime Data{
+            get{return DateTime.Now;}
+        }
         protected float valor;
         public float Valor{
-            get{return valor;}
             set{valor = value;}
+            get{return valor;}
         }
 
         //Métodos
