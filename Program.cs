@@ -42,7 +42,7 @@ namespace abstracao
                 }
                 else if(ops == "C")
                 {
-                    Console.WriteLine($"Crédito ou débito: [C] Crédito\n[D] Débito\n opção: ");
+                    Console.WriteLine($"Crédito ou débito: \n[C] Crédito\n[D] Débito\n opção: ");
                     opsCD = Console.ReadLine();
                     opsCD = opsCD.ToUpper();
                     CorrigindoOpcaoSN(opsCD, "C", "D");
@@ -84,6 +84,12 @@ namespace abstracao
                     opcao = Console.ReadLine();
                     opcao = opcao.ToUpper();
                 } 
+            }
+            void MostrarCartoes(string[] a, string[] b, int contador){
+                for (var i = 0; i < 3; i++)
+                {
+                    Console.WriteLine($"Cartão {i + 1}\nNome do titular: {a[1]}\nBandeira: {b[i]}");
+                }
             }
         }
     }

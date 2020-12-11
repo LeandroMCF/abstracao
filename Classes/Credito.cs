@@ -14,11 +14,7 @@ namespace abstracao.Classes
 
         //Funções
         public void Pagar(float valor, int parcelas, string ops){
-            if (Limite < valor)
-            {
-                Console.WriteLine($"Limite do cartão excedido.");
-            }
-            while (parcelas < 12)
+            while (parcelas > 12)
             {
                 Console.WriteLine($"Numero de parcelas ultrapassado");
                 parcelas = int.Parse(Console.ReadLine());
@@ -42,8 +38,15 @@ namespace abstracao.Classes
             }
             if (ops == "P")
             {
-                Console.WriteLine($"Compra efetuada!");
-                Limite = Limite - valor;
+                if (Limite < valor)
+                {
+                    Console.WriteLine($"Limite do cartão excedido, não será possivel efetuar esse pagamento.");
+                }
+                else
+                {
+                    Console.WriteLine($"Compra efetuada!");
+                    Limite = Limite - valor;
+                }
             }
         }
     }

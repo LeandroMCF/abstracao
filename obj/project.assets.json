@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\abstracao\\abstracao.csproj",
+      "projectUniqueName": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Senai\\abstracao\\abstracao.csproj",
       "projectName": "abstracao",
-      "projectPath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\abstracao\\abstracao.csproj",
+      "projectPath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Senai\\abstracao\\abstracao.csproj",
       "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\abstracao\\obj\\",
+      "outputPath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\Senai\\abstracao\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"
